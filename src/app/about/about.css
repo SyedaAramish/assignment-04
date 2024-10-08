@@ -1,0 +1,41 @@
+.aboutPage {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.imageContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Background image behind text */
+}
+
+.textContainer {
+  position: center;
+  padding: 80px 20px; /* Added padding at the top to ensure it starts below the header */
+  color: #fff; /* Text color for contrast against background */
+  z-index: 1; /* Ensures text is above the background */
+  max-width: 1200px; /* Limit the width for better readability */
+  margin: auto; /* Center the text */
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better contrast */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 90%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+}
+
+.typingText {
+  white-space: pre-line; /* Preserve line breaks in the text */
+  line-height: 1.6; /* Adjust line height for better readability */
+}
+
+.typingText span {
+  display: block; /* Each line will occupy its own block */
+  /*margin-bottom: 10px; /* Space between paragraphs (1 line spacing) */
+}
+ 
+  
+  
